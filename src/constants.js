@@ -349,6 +349,48 @@ export const projects = [
 
   {
     id: 3,
+    title: "Brain Stroke Classification",
+    description:
+      "A deep learning–based medical image classification system developed to detect Bleeding, Ischemia, and Normal brain conditions from medical images using a ResNet50 convolutional neural network. The trained model is deployed as an interactive Streamlit web application, allowing users to upload images and receive real-time predictions with confidence scores and probability visualizations. This project demonstrates an end-to-end machine learning workflow, including model training, evaluation, and cloud deployment, and is intended for educational and research purposes.",
+
+    image: brainstokelogo,
+    tags: [
+      "Python",
+      "Streamlit",
+      "TensorFlow / Keras",
+      "Deep Learning",
+      "CNN",
+      "ResNet50",
+      "NumPy",
+      "Pandas",
+      "Streamlit Cloud",
+    ],
+    github: "https://github.com/Rakib-Hossain10/Brain-Stroke-Classification-",
+    webapp: "https://brain-stroke-classification-rakib-hossain.streamlit.app/",
+  },
+
+    {
+    id: 4,
+    title: "Tuberculosis Detection from Chest X-Rays",
+    description:
+      "An end-to-end deep learning system for tuberculosis detection from chest X-ray images, featuring a controlled comparison between a custom CNN and transfer-learning architectures (VGG16 and ResNet50). The project emphasises medically relevant evaluation metrics (precision, recall, F1-score, confusion matrix) and probability-based decision thresholds to support screening-oriented use cases. The best-performing ResNet50 model is deployed through a professional Streamlit application that enables real-time image upload, multi-model selection, and interactive inference, with a modular design prepared for future FastAPI and React-based deployment.",
+
+    image: TB,
+    tags: [
+      "Deep Learning",
+      "Convolutional Neural Networks",
+      "Medical Image Analysis",
+      "Tuberculosis Detection",
+      "Chest X-ray Classification",
+      "Computer Vision",
+      "Transfer Learning",
+    ],
+    github: "https://github.com/Rakib-Hossain10/Tuberculosis-Detection",
+    webapp: "https://tuberculosis-detection-rakib-hossain.streamlit.app/",
+  },
+
+  {
+    id: 5,
     title: "Wheat Plant Diseases",
     description:
       "A TensorFlow/Keras computer vision system that classifies wheat leaf images into 8 disease categories using transfer learning (EfficientNetB0, ResNet50). Includes data cleaning and validation to detect corrupted samples, image augmentation to improve robustness under real field conditions, and class-imbalance handling via balanced class weights.The training pipeline follows a two-phase fine-tuning strategy (frozen backbone → partial unfreezing) with EarlyStopping and low learning-rate optimisation to maximise generalisation while preventing overfitting. Model performance is evaluated using accuracy, macro-F1, weighted-F1, and confusion matrix analysis to ensure both overall and per-class reliability.The project exports trained models along with a deployment-ready metadata.json (image size, class names, prediction logic), enabling seamless Streamlit web application deployment for real-time disease detection and decision support in precision agriculture.",
@@ -371,47 +413,6 @@ export const projects = [
     webapp: "https://wheat-plant-disease-classification.streamlit.app/",
   },
 
-  {
-    id: 4,
-    title: "Brain Stroke Classification",
-    description:
-      "A deep learning–based medical image classification system developed to detect Bleeding, Ischemia, and Normal brain conditions from medical images using a ResNet50 convolutional neural network. The trained model is deployed as an interactive Streamlit web application, allowing users to upload images and receive real-time predictions with confidence scores and probability visualizations. This project demonstrates an end-to-end machine learning workflow, including model training, evaluation, and cloud deployment, and is intended for educational and research purposes.",
-
-    image: brainstokelogo,
-    tags: [
-      "Python",
-      "Streamlit",
-      "TensorFlow / Keras",
-      "Deep Learning",
-      "CNN",
-      "ResNet50",
-      "NumPy",
-      "Pandas",
-      "Streamlit Cloud",
-    ],
-    github: "https://github.com/Rakib-Hossain10/Brain-Stroke-Classification-",
-    webapp: "https://brain-stroke-classification-rakib-hossain.streamlit.app/",
-  },
-
-  {
-    id: 5,
-    title: "Tuberculosis Detection from Chest X-Rays",
-    description:
-      "An end-to-end deep learning system for tuberculosis detection from chest X-ray images, featuring a controlled comparison between a custom CNN and transfer-learning architectures (VGG16 and ResNet50). The project emphasises medically relevant evaluation metrics (precision, recall, F1-score, confusion matrix) and probability-based decision thresholds to support screening-oriented use cases. The best-performing ResNet50 model is deployed through a professional Streamlit application that enables real-time image upload, multi-model selection, and interactive inference, with a modular design prepared for future FastAPI and React-based deployment.",
-
-    image: TB,
-    tags: [
-      "Deep Learning",
-      "Convolutional Neural Networks",
-      "Medical Image Analysis",
-      "Tuberculosis Detection",
-      "Chest X-ray Classification",
-      "Computer Vision",
-      "Transfer Learning",
-    ],
-    github: "https://github.com/Rakib-Hossain10/Tuberculosis-Detection",
-    webapp: "https://tuberculosis-detection-rakib-hossain.streamlit.app/",
-  },
 
   {
     id: 6,
