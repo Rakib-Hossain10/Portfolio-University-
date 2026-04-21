@@ -3,8 +3,8 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
-import profileImage from "../../assets/profile2.png";
-import myimage from '../../assets/mynew.jpg';
+
+import myimage from '../../assets/suit pic.jpg';
 
 const About = () => {
   // Set up the hook: an array of words and typing params
